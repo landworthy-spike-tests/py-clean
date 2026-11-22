@@ -1,6 +1,6 @@
 version = 1
 stack = "py"
 install = "uv sync --frozen"
-battery = "python -m pytest"
+battery = "uv run python -m pytest"
 working_directory = "."
 queue_on = "label"
